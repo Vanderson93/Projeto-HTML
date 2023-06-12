@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+header {
+    background-color: black;
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px ;
+    width: 100%;
+}
+
+#img_log{
+    padding-right: 50px;
+    padding-top: 20px;
+    vertical-align: center;
+}
+
+nav {
+    background-color: red;
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+    word-spacing: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.5);
+}
+
+a:link{
+     font-weight: bold;
+}
+
+a:focus{
+    color: white;
+}
+
+body {
+    background-image: url("imagens/backgroud/papirus.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+h1{
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+}
+
+li{
+ list-style-image: url("imagens/icon/sword.png");
+}
+
+summary{
+    font-family: 'Mate SC', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.letra_min{
+    font-family: 'Mate SC', serif;
+    font-size: 15px;
+}
+
+.img_dir{
+    float: left;
+}
+
+.img_esc{
+    float: right;
+}
+
+#login {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 20px;
+    font-family: 'Mate SC', serif;
+    text-align: center;
+}
+
+input{
+    padding: 13px;
+    font-size: 15;
+    width: 87%;
+}
+
+button {
+    background-color: red;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+button:hover {
+    background-color: darkred;
+}
+
+#form
+{
+    align-items: center;
+
+}
+
+
+fieldset
+{
+    width:70%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+
+}
+
+legend
+{
+  font-style:bold;
+  font-family: 'Mate SC', serif;
+
+}
+
+.bt{
+    margin-left: 50px;
+    width: 150px;
+    background-color: red;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: 5px 5px 2px black;
+}
+
+.bt:hover{
+    transform: scale(1.2);
+}
